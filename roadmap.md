@@ -1,6 +1,6 @@
 🧠 1. Core Language Deep Dive
 
-These make your Java sharp. Banks love engineers who know these inside out.
+These make your Java sharp. Top tech companies love engineers who know these inside out.
 
 | Topic | Why it Matters |
 |-------|---------------|
@@ -12,7 +12,7 @@ These make your Java sharp. Banks love engineers who know these inside out.
 
 ---
 
-⚙️ 2. Concurrency and Multithreading (High Priority for Fintech/Banking)
+⚙️ 2. Concurrency and Multithreading (High Priority for Fintechs, Cloud PBCs etc)
 
 This is non-negotiable in financial systems — parallel transactions, async calls, risk computations, etc.
 
