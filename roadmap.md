@@ -4,11 +4,11 @@ These make your Java sharp. Top tech companies love engineers who know these ins
 
 | Added | Topic | Why it Matters |
 |:---:|-------|---------------|
-| [ ] | Generics (advanced) — wildcards, bounded types, type erasure | Used heavily in enterprise libraries & frameworks |
-| [ ] | Inner Classes, Anonymous Classes, Lambdas | Needed to understand framework internals & functional programming |
-| [ ] | Functional Interfaces, Streams API | Modern idiomatic Java, used in data transformations |
-| [ ] | Records and Sealed Classes (Java 17+) | Used in modern domain modeling (immutability + pattern matching) |
-| [ ] | Enums with behavior | Often used for states, command types, error codes |
+| [x] | Generics (advanced) — wildcards, bounded types, type erasure | Used heavily in enterprise libraries & frameworks |
+| [] | Inner Classes, Anonymous Classes, Lambdas | Needed to understand framework internals & functional programming |
+| [] | Functional Interfaces, Streams API | Modern idiomatic Java, used in data transformations |
+| [] | Records and Sealed Classes (Java 17+) | Used in modern domain modeling (immutability + pattern matching) |
+| [x] | Enums with behavior | Often used for states, command types, error codes |
 
 ---
 

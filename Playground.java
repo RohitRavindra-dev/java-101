@@ -5,10 +5,16 @@ import java.util.stream.Stream;
 public class Playground {
     public static void main(String[] args) {
         System.out.println("Welcome to the Playground!");
-    }
+        List<Integer> nums = List.of(1, 2, 3, 4);
 
-    List<String> fruits = Arrays.asList("Apple", "Banana", "Cherry");
-    Stream<String> filtered = fruits.stream()
-            .filter(fruit -> fruit.startsWith("B"));
+        List<Integer> doubled = nums.stream()
+                .peek(n -> System.out.println("Before map: " + n))
+                .map(n -> n * 2)
+                .peek(n -> System.out.println("After map: " + n))
+                .toList();
+
+        System.out.println(doubled);
+
+    }
 
 }
