@@ -1,0 +1,6 @@
+# Ignore VS Code workspace settings (keep local only)
+.vscode/settings.json
+
+# Optional: user-specific files
+.DS_Store
+Thumbs.db

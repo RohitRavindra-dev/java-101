@@ -2,13 +2,13 @@
 
 These make your Java sharp. Top tech companies love engineers who know these inside out.
 
-| Topic | Why it Matters |
-|-------|---------------|
-| Generics (advanced) — wildcards, bounded types, type erasure | Used heavily in enterprise libraries & frameworks |
-| Inner Classes, Anonymous Classes, Lambdas | Needed to understand framework internals & functional programming |
-| Functional Interfaces, Streams API | Modern idiomatic Java, used in data transformations |
-| Records and Sealed Classes (Java 17+) | Used in modern domain modeling (immutability + pattern matching) |
-| Enums with behavior | Often used for states, command types, error codes |
+| Added | Topic | Why it Matters |
+|:---:|-------|---------------|
+| [ ] | Generics (advanced) — wildcards, bounded types, type erasure | Used heavily in enterprise libraries & frameworks |
+| [ ] | Inner Classes, Anonymous Classes, Lambdas | Needed to understand framework internals & functional programming |
+| [ ] | Functional Interfaces, Streams API | Modern idiomatic Java, used in data transformations |
+| [ ] | Records and Sealed Classes (Java 17+) | Used in modern domain modeling (immutability + pattern matching) |
+| [ ] | Enums with behavior | Often used for states, command types, error codes |
 
 ---
 
@@ -16,16 +16,16 @@ These make your Java sharp. Top tech companies love engineers who know these ins
 
 This is non-negotiable in financial systems — parallel transactions, async calls, risk computations, etc.
 
-| Topic | Why it Matters |
-|-------|---------------|
-| Thread lifecycle, Runnable/Callable/Future | Core concurrency primitives |
-| Executors, ThreadPools | Used in backend services for task execution |
-| CompletableFuture | Foundation for async APIs (used in Dropwizard, Spring Boot, etc.) |
-| Locks, Semaphores, Latches, Barriers | Control concurrent operations safely |
-| Concurrent Collections (CopyOnWrite, ConcurrentHashMap, etc.) | Safe data sharing in multithreaded apps |
-| ForkJoinPool & Parallel Streams | Efficient parallel computation |
-| Java Memory Model & volatile keyword | Understanding visibility and atomicity issues |
-| Reactive Programming (Project Reactor, RxJava, CompletableFuture chains) | Used in modern microservices for async I/O |
+| Added | Topic | Why it Matters |
+|:---:|-------|---------------|
+| [ ] | Thread lifecycle, Runnable/Callable/Future | Core concurrency primitives |
+| [ ] | Executors, ThreadPools | Used in backend services for task execution |
+| [ ] | CompletableFuture | Foundation for async APIs (used in Dropwizard, Spring Boot, etc.) |
+| [ ] | Locks, Semaphores, Latches, Barriers | Control concurrent operations safely |
+| [ ] | Concurrent Collections (CopyOnWrite, ConcurrentHashMap, etc.) | Safe data sharing in multithreaded apps |
+| [ ] | ForkJoinPool & Parallel Streams | Efficient parallel computation |
+| [ ] | Java Memory Model & volatile keyword | Understanding visibility and atomicity issues |
+| [ ] | Reactive Programming (Project Reactor, RxJava, CompletableFuture chains) | Used in modern microservices for async I/O |
 
 ---
 
@@ -33,13 +33,13 @@ This is non-negotiable in financial systems — parallel transactions, async cal
 
 Knowing how the JVM works separates a developer from an engineer.
 
-| Topic | Why it Matters |
-|-------|---------------|
-| JVM architecture (heap, stack, metaspace) | Helps with debugging performance issues |
-| Garbage Collection (GC tuning, G1, ZGC, etc.) | Crucial for low-latency systems like fintech |
-| Classloading & Reflection | Frameworks like Spring use it heavily |
-| JIT Compilation & HotSpot optimizations | Explains runtime performance behavior |
-| Memory leaks, profiling tools (VisualVM, JConsole, Flight Recorder) | Detect issues in production apps |
+| Added | Topic | Why it Matters |
+|:---:|-------|---------------|
+| [ ] | JVM architecture (heap, stack, metaspace) | Helps with debugging performance issues |
+| [ ] | Garbage Collection (GC tuning, G1, ZGC, etc.) | Crucial for low-latency systems like fintech |
+| [ ] | Classloading & Reflection | Frameworks like Spring use it heavily |
+| [ ] | JIT Compilation & HotSpot optimizations | Explains runtime performance behavior |
+| [ ] | Memory leaks, profiling tools (VisualVM, JConsole, Flight Recorder) | Detect issues in production apps |
 
 ---
 
@@ -47,16 +47,16 @@ Knowing how the JVM works separates a developer from an engineer.
 
 These are what you'll actually use day-to-day.
 
-| Topic | Why it Matters |
-|-------|---------------|
-| Spring & Spring Boot (Core, Data, Web, Security) | Most popular enterprise stack |
-| Dropwizard / Micronaut / Quarkus | Lightweight alternatives for microservices |
-| Dependency Injection & Inversion of Control | The foundation of all enterprise frameworks |
-| RESTful APIs (JAX-RS, Spring MVC) | Building and consuming APIs |
-| Persistence (JPA, Hibernate) | ORM layer, mapping DB tables to Java objects |
-| Transaction Management | Critical in financial systems to ensure consistency |
-| Caching (EhCache, Redis, Caffeine) | Performance optimization for reads |
-| Validation (Jakarta Bean Validation) | Clean input validation logic |
+| Added | Topic | Why it Matters |
+|:---:|-------|---------------|
+| [ ] | Spring & Spring Boot (Core, Data, Web, Security) | Most popular enterprise stack |
+| [ ] | Dropwizard / Micronaut / Quarkus | Lightweight alternatives for microservices |
+| [ ] | Dependency Injection & Inversion of Control | The foundation of all enterprise frameworks |
+| [ ] | RESTful APIs (JAX-RS, Spring MVC) | Building and consuming APIs |
+| [ ] | Persistence (JPA, Hibernate) | ORM layer, mapping DB tables to Java objects |
+| [ ] | Transaction Management | Critical in financial systems to ensure consistency |
+| [ ] | Caching (EhCache, Redis, Caffeine) | Performance optimization for reads |
+| [ ] | Validation (Jakarta Bean Validation) | Clean input validation logic |
 
 ---
 
@@ -64,13 +64,13 @@ These are what you'll actually use day-to-day.
 
 Used everywhere — from log processing to API input handling.
 
-| Topic | Why it Matters |
-|-------|---------------|
-| Streams vs Readers/Writers | Understanding I/O layers |
-| NIO & NIO.2 | Scalable I/O used in servers |
-| Serialization / Deserialization (Jackson, Gson) | For JSON/XML data transfer |
-| File Watchers, Channels, Buffers | Used for large file processing |
-| Working with Databases (JDBC, connection pooling) | Still foundational in enterprise apps |
+| Added | Topic | Why it Matters |
+|:---:|-------|---------------|
+| [ ] | Streams vs Readers/Writers | Understanding I/O layers |
+| [ ] | NIO & NIO.2 | Scalable I/O used in servers |
+| [ ] | Serialization / Deserialization (Jackson, Gson) | For JSON/XML data transfer |
+| [ ] | File Watchers, Channels, Buffers | Used for large file processing |
+| [ ] | Working with Databases (JDBC, connection pooling) | Still foundational in enterprise apps |
 
 ---
 
@@ -78,12 +78,12 @@ Used everywhere — from log processing to API input handling.
 
 Fintech-grade apps care about data integrity and confidentiality.
 
-| Topic | Why it Matters |
-|-------|---------------|
-| Java Security APIs (MessageDigest, Signature, Cipher) | Encryption, signing, hashing |
-| KeyStores & Certificates | Used for SSL/TLS and authentication |
-| JWT & OAuth2 (Spring Security) | Common authentication/authorization method |
-| Secure coding practices (avoiding injections, leaks) | Security compliance requirement |
+| Added | Topic | Why it Matters |
+|:---:|-------|---------------|
+| [ ] | Java Security APIs (MessageDigest, Signature, Cipher) | Encryption, signing, hashing |
+| [ ] | KeyStores & Certificates | Used for SSL/TLS and authentication |
+| [ ] | JWT & OAuth2 (Spring Security) | Common authentication/authorization method |
+| [ ] | Secure coding practices (avoiding injections, leaks) | Security compliance requirement |
 
 ---
 
@@ -91,13 +91,13 @@ Fintech-grade apps care about data integrity and confidentiality.
 
 Every enterprise engineer is expected to know these.
 
-| Category | Examples |
-|----------|----------|
-| Creational | Singleton, Factory, Builder |
-| Structural | Adapter, Decorator, Proxy |
-| Behavioral | Strategy, Observer, Command |
-| Concurrency Patterns | Producer-Consumer, Thread Pool |
-| Enterprise Patterns | Repository, Service Layer, DTO, CQRS |
+| Added | Category | Examples |
+|:---:|----------|----------|
+| [ ] | Creational | Singleton, Factory, Builder |
+| [ ] | Structural | Adapter, Decorator, Proxy |
+| [ ] | Behavioral | Strategy, Observer, Command |
+| [ ] | Concurrency Patterns | Producer-Consumer, Thread Pool |
+| [ ] | Enterprise Patterns | Repository, Service Layer, DTO, CQRS |
 
 ---
 
@@ -105,12 +105,12 @@ Every enterprise engineer is expected to know these.
 
 For building reliable and maintainable systems.
 
-| Topic | Why it Matters |
-|-------|---------------|
-| JUnit 5, Mockito | Unit testing |
-| Integration Testing (Testcontainers, WireMock) | Test APIs and DBs |
-| Logging (SLF4J, Logback, Log4j2) | Production monitoring |
-| Code Quality (SonarQube, PMD, Checkstyle) | Required in enterprise CI/CD pipelines |
+| Added | Topic | Why it Matters |
+|:---:|-------|---------------|
+| [ ] | JUnit 5, Mockito | Unit testing |
+| [ ] | Integration Testing (Testcontainers, WireMock) | Test APIs and DBs |
+| [ ] | Logging (SLF4J, Logback, Log4j2) | Production monitoring |
+| [ ] | Code Quality (SonarQube, PMD, Checkstyle) | Required in enterprise CI/CD pipelines |
 
 ---
 
@@ -118,13 +118,13 @@ For building reliable and maintainable systems.
 
 Enterprise-grade systems are distributed and cloud-native.
 
-| Topic | Why it Matters |
-|-------|---------------|
-| Microservices design (12-Factor App) | Fintech systems are microservice-heavy |
-| Event-driven systems (Kafka, RabbitMQ) | For real-time updates, transactions, alerts |
-| REST vs gRPC vs GraphQL | Service communication |
-| Docker, Kubernetes | Deployment and scaling |
-| Cloud SDKs (AWS, GCP, Azure) | Integration with managed services |
+| Added | Topic | Why it Matters |
+|:---:|-------|---------------|
+| [ ] | Microservices design (12-Factor App) | Fintech systems are microservice-heavy |
+| [ ] | Event-driven systems (Kafka, RabbitMQ) | For real-time updates, transactions, alerts |
+| [ ] | REST vs gRPC vs GraphQL | Service communication |
+| [ ] | Docker, Kubernetes | Deployment and scaling |
+| [ ] | Cloud SDKs (AWS, GCP, Azure) | Integration with managed services |
 
 ---
 
@@ -132,12 +132,12 @@ Enterprise-grade systems are distributed and cloud-native.
 
 These make you stand out in senior roles.
 
-| Topic | Why it Matters |
-|-------|---------------|
-| Reflection & Annotations | Understanding how frameworks like Spring work internally |
-| Custom Classloaders & Plugins | Advanced extensibility |
-| Dynamic Proxies | Used in AOP, transaction management |
-| Annotation Processing (APT) | Build-time code generation |
-| Modularization (Java Modules) | Large app structuring |
-| Native Images (GraalVM) | Performance optimization frontier |
+| Added | Topic | Why it Matters |
+|:---:|-------|---------------|
+| [ ] | Reflection & Annotations | Understanding how frameworks like Spring work internally |
+| [ ] | Custom Classloaders & Plugins | Advanced extensibility |
+| [ ] | Dynamic Proxies | Used in AOP, transaction management |
+| [ ] | Annotation Processing (APT) | Build-time code generation |
+| [ ] | Modularization (Java Modules) | Large app structuring |
+| [ ] | Native Images (GraalVM) | Performance optimization frontier |
 
