@@ -20,7 +20,7 @@ This is non-negotiable in financial systems — parallel transactions, async cal
 |:---:|-------|---------------|
 | [ ] | Thread lifecycle, Runnable/Callable/Future | Core concurrency primitives |
 | [ ] | Executors, ThreadPools | Used in backend services for task execution |
-| [ ] | CompletableFuture | Foundation for async APIs (used in Dropwizard, Spring Boot, etc.) |
+| [X] | CompletableFuture | Foundation for async APIs (used in Dropwizard, Spring Boot, etc.) |
 | [ ] | Locks, Semaphores, Latches, Barriers | Control concurrent operations safely |
 | [ ] | Concurrent Collections (CopyOnWrite, ConcurrentHashMap, etc.) | Safe data sharing in multithreaded apps |
 | [ ] | ForkJoinPool & Parallel Streams | Efficient parallel computation |
